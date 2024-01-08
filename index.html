@@ -3,20 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="js/main.js"></script> -->
+    <title>Adrian C. Garcia</title>
 </head>
 <body>
-
+    <header>
+        <h1>Adrian C. Garcia Dev Portfolio</h1>
+        <h2>Full Stack Software Developer</h2>
+    </header>
     <!-- <top-nav> -->
-		<ul class="navbar">
-			<li><a href="#section1"><span class="nav-horizontal"></span>Home</a></li>
-			<li><a href="#section2"><span class="nav-horizontal"></span>About</a></li>
-			<li><a href="#section3"><span class="nav-horizontal"></span>Skills</a></li>
-			<li><a href="#section4"><span class="nav-horizontal"></span>Projects</a></li>
-			<li><a href="#section5"><span class="nav-horizontal"></span>Contact</a></li>
-			<li><a href="#section6"><span class="nav-horizontal"></span>Resume</a></li>
-		</ul>
+    <div id="navbar">
+        <ul>
+            <li>
+                <a class="active" href="#section1">Home</a>
+            </li>
+            <li>
+                <a href="#section2">About</a>
+            </li>
+            <li>
+                <a href="#section3">Skills</a>
+            </li>
+            <li>
+                <a href="#section4">Projects</a>
+            </li>
+            <li>
+                <a href="#section5">Contact</a>
+            </li>
+            <li>
+                <a href="assets/Adrian_C_Garcia_Resume.pdf" target="_blank">Resume</a>
+            </li>
+        </ul>
+    </div>
 	<!-- </nav> -->
     
+    <div class="content">
+        <section class="intro" id="section1">
+            <div class="image">
+                <img id="headshot" src="assets/acg_headshot.jpg" alt="adrian-headhsot">
+            </div>
+            <div class="intro-text">
+                <h2>Full Stack Software Developer</h2>
+                <p>Creative Problem Solver</p>
+            </div>
+        </section>
+
+        <section class="about" id="section2">
+            <h1>About</h1>
+            <h2>Let's Collaborate!</h2>
+            <p>I am a software engineer with a background in visual arts. In my previous role, connecting with people was paramount to my success. Creating a unique and memorable customer experience sets me apart in this competitive market. Being detail-oriented, forward thinking, and an excellent communicator compliment my skills as a web developer when collaborating with others to conceptualize and produce projects.</p>
+        </section> <!-- cd-section -->
+
+        <section class="skills" id="section3" >
+            <section class="icons">
+                <h1>Skills</h1>
+                <h2>Languages and Frameworks</h2>
+                <img src ="assets/web_icons/small/html5_logo.png">
+                <img src ="assets/web_icons/small/css3_logo.png">
+                <img src ="assets/web_icons/small/javascript_logo.png">
+                <img src ="assets/web_icons/small/django_logo.png">
+                <img src ="assets/web_icons/small/flask.png">
+                <img src ="assets/web_icons/small/Svelte_Logo.png">
+                <img src ="assets/web_icons/small/nodejs_logo.png">
+                <img src ="assets/web_icons/small/python_logo.png">
+                <img src ="assets/web_icons/small/react_logo.png">
+            </section>
+        </section>
+
+        <hr class="solid-line">
+
+
+        <section id="section4" class="cd-section">
+            <h1>Projects</h1>
+                <div class="projects-list">
+                    <div class="project1">
+                        <a href="https://gentle-fairy-943b44.netlify.app/" target="_blank"><h2>Mileage Reimbursement Tracker</h2></a>
+                        <div class="image">
+                                <img src ="assets/projects/mileage_tracker.png">
+                        </div>
+
+                        <div class="app-description">
+                            <p>Mileage Tracker makes it easier for drivers to keep track of their mileage and make sure they get reimbursed the correct amount for each trip.</p>
+                            <br>
+                            <p>Technologies used: Python, Flask, Javascript, Svelte, HTML, & CSS.</p>
+                        </div>
+                    </div>
+
+                    <!-- <hr class="solid-line"> -->
+
+                    <div class="project2">
+                        <a href="https://personal-jukebox-nxb4.onrender.com/index.html" target="_blank"><h2>Personal Jukebox</h2></a>
+
+                        <div class="image">
+                            <img src ="assets/projects/personal_jukebox.png">
+                        </div>
+                        <div class="app-description">
+                            <p>As a user of Personal Jukebox App, you can add your favorite albums with additional information such as artist, year released, album cover, and a link to the playlist.</p>
+                            <p>Technoliges used: MERN Stack Mongoose, Express, React, Morgan , Cors, & React Router DOM.</p>
+                        </div>
+                        
+                    </div>
+
+                    <!-- <hr class="solid-line"> -->
+                    
+                    <div class="project3">
+                        <a href="https://illustrious-brigadeiros-be1241.netlify.app/" target="_blank"><h2>Job Application Tracker</h2></a>
+                        <div class="image">
+                            <img src ="assets/projects/jop_application_tracker.png">
+                        </div>
+                        <div class="app-description">
+                            <p>Job Application Tracker will help keep you organized when on the job hunt by keeping a log of all the necessary information for each application submitted.</p>
+                            <p>Technoliges used: Python, Django, Neon Database, Javascript, React, React Router DOM, Milligram, HTML, & CSS.</p>
+                        </div>
+                    </div>
+
+                    <!-- <hr class="solid-line"> -->
+
+                    <div class="project4">
+                        <a href="https://project-2-app.onrender.com/" target="_blank"><h2>Wedding Venue Tracker</h2></a>
+                        <div class="image">
+                            <img src ="assets/projects/wedding_venue_tracker.png">
+                        </div>
+                        <div class="app-description">
+                            <p>Photo Assistant helps photographers log important information about wedding venues they've worked at. This will help them when working at the venue again.</p>
+                            <p>Technoliges used: Mongo, EJS, Node,Javascript, HTML, & CSS.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- <hr class="solid-line"> -->
+
+                    <div class="project5">
+                        <a href="https://project1-starwars.netlify.app/" target="_blank"><h2>Star Wars App</h2></a>
+                        <div class="image">
+                            <img src ="assets/projects/starwars_app.png">
+                        </div>
+                        <div class="app-description">
+                            <p>Staw Wars App api. Explore all things from the Star Wars Universe</p>
+                            <p>Technoliges used: Swapi, API calls, JQuery,Javascript, HTML, & CSS.</p>
+                        </div>
+                    </div>
+                </div>
+        </section> <!-- cd-section -->
+
+        <section class="contact"  id="section5">
+            <h2>Contact Me</h2>
+            <p>I'd love to talk about any future projects we can build together. Let's talk!</p>
+            <p>adriancgarcia@gmail.com</p>
+
+        </section><!-- cd-section -->
+
+
+        <div class="footer">
+            <h3>© 2023 Adrian C. Garcia</h3>
+        </div>
+
+    </div>
+
+<script src="js/main.js"></script>
 </body>
 </html>
