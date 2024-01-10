@@ -3,6 +3,10 @@ html, body {
     margin: 0;
 }
 
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
 header {
     margin: auto;
     width: 50%;
@@ -15,6 +19,7 @@ header {
     background-color: #020202;
     margin: auto;
     width: 100%;
+    height: auto;
 }
 
 li {
@@ -31,25 +36,26 @@ li {
     width: 100%;
 }
 
-.content {
-    padding: 16px;
-}
-
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+    /* padding-top: 100px; */
 }
 
 .sticky + .content {
     padding-top: 60px;
 }
 
+#section1 {
+    padding: 40px 200px 80px 200px;
+}
+
 .intro {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 40px 0 50px 0;
+    padding: 0 0 50px 0;
 }
 
 .hs-image img{
@@ -75,122 +81,152 @@ li {
 
 h1 {
     font-size: 2rem;
+    color: #000000;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #000000;
 }
 
 p {
-    font-size: 1.7rem;;
+    font-size: 1.3rem;;
 }
 
-#section2 {
-    padding: 0 200px 0 200px;
+/* #section2 {
+    padding: 100px 200px 0 200px;
     align-items: center;
     text-align: left;
     height: auto;
+    top: 80px;
 }
 
-#section3 .cd-section {
-    padding-top: 0px;
-    text-align: center;
-  }
+
+#section2 h1 {
+    top:80px;
+} */
+
+#section3 {
+    padding: 0px 100px 40px 100px;
+    text-align: left;
+}
   
-  #section3 .icons{
-    background-color: #FFFFFF;
+#section3 .icons{
     padding: 100px;
     margin: auto;
-    text-align: center;
-  }
+}
   
-  #section3 h1 {
-    color: #000000;
+#section3 h1 {
     top:80px;
-  }
+    text-align: left;
+}
   
-  .icons h2 {
-    color: #000000;
-    font-size: 1.2rem;
+.icons h2 {
+    font-size: 1.5rem;
     font-weight: 500;
-    margin: 40px 0 40px 0;
-  }
+    margin: 40px 0px 40px 0px;
+}
   
-  .icons img{
+.icons img {
     padding: 10px 20px 0 40px;
     margin: 0;
     align-items: center;
-  }
+}
   
-  hr.solid-line {
+hr.solid-line {
     border-top: 2px solid #E0E0E0;
-  }
+}
 
-  #section4 {
+#section4 {
     align-items: center;
     justify-content: center;
     margin: 20px 0 0 0;
-    background-color: #ffffff;
-  }
+    padding: 100px 200px 0 200px;
+}
 
-  #section4 h1 {
-    top: 80px;
-    color: #000000;
-    text-align: center;
-  }
-
-  .projects {
+/* .projects {
     display: flex;
     align-items: center; 
     justify-content: center;margin-top: 80px;
-  }
+} */
 
-  .project-name a {
+#app {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px 50px 50px 50px;
+}
+
+#section4 h1 {
+    top: 80px;
+}
+
+.project-name a {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: left; */
+    justify-content: left;
     margin: 0;
-  }
+}
 
-  #app {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 100px 50px 100px;
-  }
+.project-name h2 {
+    text-align: left;
+}
 
 /*   
   .image {
     width: 800px;
     height: auto;
     border: 2px solid #010101;
-  } */
-  
-  .project-description {
-    padding-left: 60px;
-  }
-  
-  #section4 img {
+} */
+
+#section4 img {
     display: block;
     margin: 20px 0 0 0;
     padding: 20px 0 20px 0;
     width: 600px;
     height:300px;
-  }
+}  
 
-  .contact {
-    text-align: center;
+.project-description {
+    padding-left: 60px;
+} 
+
+/* .project-description p{
+    font-weight: bold;
+}  */
+
+
+
+#section5 {
+    /* text-align: center;
     justify-content: center;
-    padding: 60px 100px 100px 100px ;
-    margin: 0;
-  }
+    padding: 100px 200px 100px 200px ;
+    margin: 0; */
 
-  .footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* margin: 20px 0 0 0; */
+    padding: 100px 200px 100px 200px;
+    height: auto;
+    top: 80px;
+}
+
+#section5 h1 {
+    top: 80px;
+    text-align: left;
+}
+
+.footer {
     margin: 0;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0 10px 0;
     text-align: center;
     border-top: 2px solid #E0E0E0;
     background-color: #202020;
-  }
+}
   
-  .footer h3{
+.footer h3{
     color: #ffffff;
-  }
+}
