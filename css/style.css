@@ -135,13 +135,14 @@ p {
   
 hr.solid-line {
     border-top: 2px solid #E0E0E0;
+    margin: 0px 60px 0 60px;
 }
 
 #section4 {
     align-items: center;
     justify-content: center;
     margin: 20px 0 0 0;
-    padding: 100px 200px 0 200px;
+    padding: 100px 200px 60px 200px;
 }
 
 /* .projects {
@@ -216,6 +217,23 @@ hr.solid-line {
 #section5 h1 {
     top: 80px;
     text-align: left;
+}
+
+#section5 p {
+    padding-top: 30px;
+}
+
+#section5 a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.email {
+    padding: 0px 430px 0px 430px;
+}
+
+#section5 a:hover {
+    text-decoration: underline;
 }
 
 .footer {
