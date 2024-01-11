@@ -36,6 +36,20 @@ li {
     width: 100%;
 }
 
+#social {
+    margin-right: 100px;
+}
+
+#social li {
+    float: right;
+    list-style-type: none;
+    /* margin-right: 200px; */
+    padding: 0 40px 0 20px;
+    font-size: 1.2rem
+}
+
+
+
 .sticky {
     position: fixed;
     top: 0;
@@ -114,6 +128,9 @@ p {
 #section3 .icons{
     padding: 100px;
     margin: auto;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row; */
 }
   
 #section3 h1 {
@@ -128,6 +145,9 @@ p {
 }
   
 .icons img {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row; */
     padding: 10px 20px 0 40px;
     margin: 0;
     align-items: center;
@@ -234,6 +254,18 @@ hr.solid-line {
 
 #section5 a:hover {
     text-decoration: underline;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+}
+
+.social-icons li {
+    padding: 40px;
+    font-size: 1.5rem;
 }
 
 .footer {
