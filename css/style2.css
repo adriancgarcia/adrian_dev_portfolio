@@ -1,7 +1,8 @@
 html, body {
     font-family: "Ubuntu", sans-serif;
-    height: 100%;
+    height: auto;
     margin: 0 auto;
+    width: 100%;
     /* max-width: 390px; */
     /* padding: 0; */
 }
@@ -214,6 +215,11 @@ hr.solid-line {
     text-align: center;
 }
 
+#section4 h2 {
+    text-align: left;
+    padding: 60px 0 40px 80px;
+}
+
 /* .project-name a {
     display: flex;
     flex-direction: column;
@@ -236,8 +242,9 @@ hr.solid-line {
 .projects-list img {
     max-width: 100%;
     height: auto;
-    padding: 20px; 
+    /* padding-right: 100px;  */
     margin: 0;
+    align-items: left;
 }  
 
 /* .project-description {
@@ -290,36 +297,27 @@ hr.solid-line {
     text-decoration: underline;
 }
 
+
+
+
+
 .sm-container {
-    /* margin: auto; */
-    width: 100%;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-.table {
-    display: table;
-    margin: 0 auto;
-}
-
-ul .social-icons {
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* padding: 10px; */
-    /* width: 100%; */
-    /* text-align: center; */
-    list-style: none;
-    /* padding-top: 20px; */
-}
-
-.social-icons li {
-    /* margin: 0; */
-    padding: 0 100px 0 40px;
+.sm-container ul {
     font-size: 1.5rem;
-    /* text-align: center; */
-    /* align-items: center; */
-    /* margin:40px; */
-    display: inline;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.sm-container li {
+    margin: 0 10px;
+    text-align: center;
+    padding: 0 40px 0 20px;
+    align-items: center;
 }
 
 .footer {
