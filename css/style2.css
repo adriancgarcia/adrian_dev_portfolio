@@ -2,7 +2,7 @@ html, body {
     font-family: "Ubuntu", sans-serif;
     height: 100%;
     margin: 0 auto;
-    width: 100%;
+    max-width: 390px;
     /* padding: 0; */
 }
 
@@ -81,8 +81,8 @@ li {
 }
 
 .intro {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     /* justify-content: center; */
     /* padding: 0 0 50px 0; */
 }
@@ -91,6 +91,8 @@ li {
     padding: 20px;
     /* margin: 0 auto; */
     /* vertical-align: top; */
+    /* display: flex; */
+    text-align: center;
 }
 
 .hs-image img {
@@ -98,8 +100,9 @@ li {
     height: auto;
 }
 
-.hs-image {
-    /* flex-basis: 40%; */
+.hs-image h1, h2, p{
+    padding: 0 20px 0 20px;
+    line-height:1.5;
 }
 
 .intro-text {
@@ -143,21 +146,24 @@ p {
 } */
 
 #section3 {
-    padding: 0px 100px 40px 100px;
-    text-align: left;
+    /* padding: 0px 100px 40px 100px;
+    text-align: left; */
+    margin: auto;
+    width: 100%;
+    padding: 20px;
 }
   
-#section3 .icons{
-    padding: 100px;
-    margin: auto;
+#section3 {
+    /* padding: 20px; */
+    /* margin: auto; */
     /* display: flex;
     justify-content: center;
     flex-direction: row; */
 }
   
-#section3 h1 {
-    top:80px;
-    text-align: left;
+#section3 h1, h2{
+    /* top:80px; */
+    text-align: center;
 }
   
 .icons h2 {
@@ -181,10 +187,13 @@ hr.solid-line {
 }
 
 #section4 {
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
     margin: 20px 0 0 0;
-    padding: 100px 200px 60px 200px;
+    padding: 100px 200px 60px 200px; */
+    margin: auto;
+    width: 100%;
+    padding: 20px;
 }
 
 /* .projects {
@@ -193,28 +202,29 @@ hr.solid-line {
     justify-content: center;margin-top: 80px;
 } */
 
-#app {
+/* #app {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px 50px 50px 50px;
+} */
+
+#section4 h1, p {
+    /* top: 80px; */
+    text-align: center;
 }
 
-#section4 h1 {
-    top: 80px;
-}
-
-.project-name a {
+/* .project-name a {
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: left; */
+    flex-direction: column;
+    align-items: left;
     justify-content: left;
     margin: 0;
 }
 
 .project-name h2 {
     text-align: left;
-}
+} */
 
 /*   
   .image {
@@ -223,17 +233,16 @@ hr.solid-line {
     border: 2px solid #010101;
 } */
 
-#section4 img {
-    display: block;
-    margin: 20px 0 0 0;
-    padding: 20px 0 20px 0;
-    width: 600px;
-    height:300px;
+.projects-list img {
+    max-width: 100%;
+    height: auto;
+    padding: 20px; 
+    margin: 0;
 }  
 
-.project-description {
+/* .project-description {
     padding-left: 60px;
-} 
+}  */
 
 /* .project-description p{
     font-weight: bold;
@@ -247,18 +256,21 @@ hr.solid-line {
     padding: 100px 200px 100px 200px ;
     margin: 0; */
 
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
     /* margin: 20px 0 0 0; */
-    padding: 100px 200px 100px 200px;
+    /* padding: 100px 200px 100px 200px;
     height: auto;
-    top: 80px;
+    top: 80px; */
+    margin: auto;
+    width: 100%;
+    padding: 20px;
 }
 
 #section5 h1 {
-    top: 80px;
-    text-align: left;
+    /* top: 80px; */
+    text-align: center;
 }
 
 #section5 p {
@@ -271,34 +283,47 @@ hr.solid-line {
 }
 
 .email {
-    padding: 0px 430px 0px 430px;
+    /* padding: 0px 430px 0px 430px; */
 }
 
 #section5 a:hover {
     text-decoration: underline;
 }
 
-.social-icons {
-    display: flex;
+.contact-info ul{
+    /* display: flex; */
     align-items: center;
-    justify-content: center;
-    padding: 10px 40px;
+    /* justify-content: center; */
+    padding: 10px;
+    width: 100%;
+    text-align: center;
 }
 
-.social-icons li {
+.contact-info li {
+    margin: 0;
     padding: 40px;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .footer {
-    margin: 0;
+    /* margin: auto; */
     width: 100%;
-    padding: 10px 0 10px 0;
-    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+
+    /* margin: 0; */
+    /* width: 100%; */
+    /* padding: 10px 0 10px 0; */
+    /* text-align: center; */
+
+    
+
     border-top: 2px solid #E0E0E0;
     background-color: #202020;
 }
   
 .footer h3{
     color: #ffffff;
+    text-align: center;
 }
