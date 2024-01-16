@@ -1,8 +1,8 @@
 html, body {
     font-family: "Ubuntu", sans-serif;
-    height: auto;
+    height: 100%;
     margin: 0 auto;
-    width: 100%;
+    width: auto;
     /* max-width: 390px; */
     /* padding: 0; */
 }
@@ -22,11 +22,11 @@ html, body {
     width: 100%;
 }
 
-
 #navburger {
    overflow: hidden;
    background-color:#333;
    position: relative;
+   width: 50%;
 }
 
 /* Hide the links inside the navigation menu (except for home) */
@@ -37,9 +37,9 @@ html, body {
 /* Style navigation menu links */
 #navburger a {
     color: #ffffff;
-    padding: 14px 16px;
+    padding: 14px 16px 14px 40px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 30px;
     display: block;
 }
 
