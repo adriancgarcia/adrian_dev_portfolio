@@ -156,7 +156,7 @@ p {
 }
   
 
-  
+/* ------ Skills Section ------ */
 #section3 h1, h2{
     text-align: center;
 }
@@ -178,6 +178,8 @@ hr.solid-line {
     margin: 0px 60px 0 60px;
 }
 
+
+/* ------projects section ------- */
 #section4 {
     margin: auto;
     width: 100%;
@@ -190,7 +192,7 @@ hr.solid-line {
 
 #section4 h2 {
     text-align: left;
-    padding: 60px 0 40px 80px;
+    padding: 60px 0 40px 40px;
 }
 
 .projects-list img {
@@ -317,5 +319,17 @@ hr.solid-line {
         max-width: 33%;
         height: auto;
         border-radius: 50%;
+    }
+
+    /* skills section icons */
+    .icons {
+        align-items: center;
+        padding: 0 20px 20px 20px;
+    }
+
+    .icons img {
+        padding: 20px 40px;
+        margin: 0;
+        align-items: center;
     }
   }
