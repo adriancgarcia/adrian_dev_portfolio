@@ -27,6 +27,7 @@ nav {
   
   .logo-container {
     display: flex;
+    justify-content: center;
     align-items: center;
     width: auto;
     margin: 0;
@@ -35,11 +36,12 @@ nav {
   .logo-txt {
     font-size: 35px;
     line-height: 75px;
-    padding-left: 30px;
+    padding: 20px 100px 0 0;
     font-family: 'Signika Negative', sans-serif;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    cursor: pointer;
+    text-align: center;
+    /* cursor: pointer; */
   }
   
   .nav-list {
@@ -83,9 +85,9 @@ nav {
     display: block;
     font-size: 30px;
     color: white;
-    float: right;
+    float: left;
     line-height: 75px;
-    margin-right: 40px;
+    margin-left: 40px;
     cursor: pointer;
   }
   
