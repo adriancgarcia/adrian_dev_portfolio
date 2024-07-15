@@ -1,106 +1,87 @@
 html, body {
     font-family: "Ubuntu", sans-serif;
     height: 100%;
-    margin: 0;
-    width: 100%;
+    margin: 0 auto;
+    /* width: auto; */
 }
 
 header {
-    width: 435px;
+    width: 100%;
 }
 
 /* ----- Burger menu styling ----- */
+/* .content {
+  margin: 0 auto;
+} */
+
 
 nav {
-    height: 75px;
-    width: auto;
-    background-color: #171c1f;
-    display: flex;
-    justify-content: space-between;
-    z-index: 99;
-  }
-  
-  .logo-container {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    /* width: auto; */
-    width: 80%;
-    margin: 0;
-    /* padding: 30px; */
-  }
-  
-  .logo-txt {
-    font-size: 30px;
-    /* line-height: 10px; */
-    padding-left: 30px;
-    padding-top: 25px;
-    font-family: 'Signika Negative', sans-serif;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    justify-items: left;
-    text-align: left;
-    width: 400px;
-  }
-  
-  .nav-list {
-    position: fixed;
-    width: 100%;
-    height: 0vh;
-    top: 75px;
-    background: #444444;
-    opacity: 6;
-    float: right;
-    text-align: center;
-    transition: all .5s;
-    z-index: 2;
-    opacity: 5;
-  }
-  
-  .nav-list li {
-    opacity: 0;
-    line-height: 30px;
-    margin: 50px 0;
-    transition: all .5s;
-    list-style-type: none;
-  }
-  
-  .nav-list li a {
-    color: #bcbcbc;
-    font-size: 27.5px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 900;
-    transition: .5s;
-  }
-  
-  .nav-list li a.active,
-  .nav-list li a:hover {
-    color: #ffffff;
-    transition: 0.5s;
-  }
-  
-  .hamburger-btn {
-    display: block;
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 75px;
-    margin-right: 40px;
-    cursor: pointer;
-  }
-  
-  #check {
-    display: none;
-  }
-  
-  #check:checked~.nav-list {
-    height: 100vh;
-  }
-  
-  #check:checked~.nav-list li {
-    opacity: 1;
-  }
+  height: 75px;
+  width: auto;
+  background-color: #171c1f;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+}
+
+.nav-list {
+  position: fixed;
+  width: 100%;
+  height: 0vh;
+  top: 75px;
+  background: #444444;
+  opacity: 6;
+  /* float: right; */
+  text-align: center;
+  transition: all .5s;
+  z-index: 2;
+  opacity: 5;
+}
+
+.nav-list li {
+  opacity: 0;
+  line-height: 30px;
+  margin: 50px 0;
+  transition: all .5s;
+  list-style-type: none;
+}
+
+.nav-list li a {
+  color: #bcbcbc;
+  font-size: 27.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 900;
+  transition: .5s;
+}
+
+.nav-list li a.active,
+.nav-list li a:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.hamburger-btn {
+  display: block;
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 75px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked~.nav-list {
+  height: 100vh;
+}
+
+#check:checked~.nav-list li {
+  opacity: 1;
+}
 
 .sticky {
     position: fixed;
@@ -112,6 +93,30 @@ nav {
     padding-top: 60px;
     width: 100%;
 }
+
+.logo-container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  /* width: auto; */
+  width: 80%;
+  margin: 0;
+  /* padding: 30px; */
+}
+
+.logo-txt {
+  font-size: 30px;
+  /* line-height: 10px; */
+  padding-left: 30px;
+  padding-top: 25px;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  justify-items: left;
+  text-align: left;
+  width: 400px;
+}
+
 /* ------end of nav bar ------- */
 
 #section1 {
@@ -153,7 +158,7 @@ p {
 /* ------ Skills Section ------ */
 
 #section3 {
-    margin: auto;
+    /* margin: auto; */
     width: 100%;
     /* padding: 20px; */
 }
@@ -176,7 +181,7 @@ p {
   
 hr.solid-line {
     border-top: 2px solid #E0E0E0;
-    margin: 0px 60px 0 60px;
+    margin: 40px 60px 0 60px;
 }
 
 
@@ -200,7 +205,8 @@ hr.solid-line {
     max-width: 100%;
     height: auto;
     margin: 0;
-    align-items: left;
+    display: flex;
+    align-items: right;
 }  
 
 #section5 {
@@ -260,9 +266,80 @@ hr.solid-line {
 
 /* @media only screen and (max-width: 600px) {} */
 
-/* @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   header {
+    width: auto;
+    margin: 0;
+  }
+
+  /* ----- Burger menu styling ----- */
+
+  .logo-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    /* width: auto; */
     width: 100%;
+    margin: 0;
+    /* padding: 30px; */
+  }
+
+  .logo-txt {
+    font-size: 30px;
+    /* line-height: 75px; */
+    padding-left: 30px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    justify-items: left;
+    text-align: left;
+    width: 400px;
+  }
+
+  nav {
+    height: 75px;
+    width: auto;
+    background-color: #171c1f;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+  }
+
+  .nav-list {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 75px;
+    background: #444444;
+    opacity: 6;
+    float: right;
+    text-align: center;
+    transition: all .5s;
+    z-index: 2;
+    opacity: 5;
+  }
+
+  .nav-list li {
+    opacity: 0;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+    list-style-type: none;
+  }
+
+  .nav-list li a {
+    color: #bcbcbc;
+    font-size: 27.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    transition: .5s;
+  }
+
+  .nav-list li a.active,
+  .nav-list li a:hover {
+    color: #ffffff;
+    transition: 0.5s;
   }
 
   .hamburger-btn {
@@ -287,47 +364,35 @@ hr.solid-line {
     opacity: 1;
   }
 
-.sticky {
+  .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-.sticky + .content {
+  .sticky + .content {
     padding-top: 60px;
     width: 100%;
-} */
+}
+
 /* ------end of nav bar ------- */
-  
-  
-  
-  /* .logo-txt {
-    font-size: 50px;
-    line-height: 75px;
-    padding-left: 30px;
-    font-family: 'Signika Negative', sans-serif;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
 
-  } */
-
-  /* .hs-image {
-      padding: 20px; */
-      /* margin: 0 auto; */
-      /* vertical-align: top; */
-      /* display: flex; */
-      /* text-align: center;
+  .hs-image {
+      padding: 20px;
+      /* margin: 0 auto;
+      vertical-align: top;
+      display: flex; */
+      text-align: center;
   }
-   */
-  /* .hs-image img {
+  
+  .hs-image img {
       max-width: 33%;
       height: auto;
       border-radius: 50%;
-  } */
+  }
 
   /* skills section icons */
-  /* .icons {
+  .icons {
       align-items: center;
       padding: 0 20px 20px 20px;
   }
@@ -337,30 +402,25 @@ hr.solid-line {
       margin: 0;
       align-items: center;
   }
-} */
+}
 
+
+/* min-width: 768px */
 
 @media only screen and (min-width: 768px) {
   header {
-    width: 100%;
-  }
-/* ----- Burger menu styling ----- */
-
-  nav {
-    height: 75px;
     width: auto;
-    background-color: #171c1f;
-    display: flex;
-    justify-content: space-between;
-    z-index: 99;
+    margin: 0;
   }
+
+/* ----- Burger menu styling ----- */
 
   .logo-container {
     display: flex;
     justify-content: left;
     align-items: left;
     /* width: auto; */
-    width: 80%;
+    width: 100%;
     margin: 0;
     /* padding: 30px; */
   }
@@ -376,6 +436,15 @@ hr.solid-line {
     justify-items: left;
     text-align: left;
     width: 400px;
+  }
+
+  nav {
+    height: 75px;
+    width: auto;
+    background-color: #171c1f;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
   }
 
   .nav-list {
@@ -449,9 +518,9 @@ hr.solid-line {
   }
 /* ------end of nav bar ------- */
 
-  p {
+  /* p {
     padding: 0px 100px 0px 80px;
-  }
+  } */
 
   .hs-image {
       padding: 20px;
@@ -480,6 +549,7 @@ hr.solid-line {
   }
 }
 
+/* @media 992 p */
 @media only screen and (min-width: 992px) {
   header {
     width: 100%;
@@ -500,7 +570,7 @@ hr.solid-line {
     justify-content: left;
     align-items: left;
     /* width: auto; */
-    width: 80%;
+    width: 100%;
     margin: 0;
     /* padding: 30px; */
   }
@@ -617,43 +687,58 @@ hr.solid-line {
   }
 }
 
-@media only screen and (min-width: 1024) {
+@media only screen and (min-width: 1024px) {
   header {
     width: 100%;
   }
 
+  .logo-container {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    /* width: auto; */
+    width: 100%;
+    margin: 0;
+    /* padding: 30px; */
+  }
+
   .logo-txt {
-    font-size: 50px;
+    font-size: 35px;
     line-height: 75px;
     padding-left: 30px;
     font-family: 'Signika Negative', sans-serif;
     font-weight: bold;
     color: rgb(0, 0, 0);
-    cursor: pointer;
+    /* cursor: pointer; */
   }
+
+  .hamburger-btn {
+    display: none;
+  }
+
   nav {
     height: 100px;
     background-color: transparent;
   }
-  .hamburger-btn {
-    display: none;
-  }
+
+  /* .nav-list ul {
+    margin: 16px 25px;
+  } */
+
   .nav-list {
     position: relative;
     height: 100px;
+    width: 100%;
     top: 0;
     background: none;
     float: right;
     text-align: right;
-    margin-right: 25px;
+    margin-right: 20px;
+    margin-left: -100px;
+    padding: 0;
     transition: none;
   }
-  .nav-list li a {
-    color: rgb(0, 0, 0);
-    font-size: 27.5px;
-    text-decoration: none;
-    font-weight: 400;
-  }
+
   .nav-list li {
     display: inline-block;
     opacity: 1;
@@ -661,14 +746,24 @@ hr.solid-line {
     margin: 0 10px;
     transition: none;
   }
+
+  .nav-list li a {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 400;
+  }
+
   .nav-list li a.active,
   .nav-list li a:hover {
     color: #000000;
     /* text-shadow: 1px 1px #000000; */
   }
+
+
   
 
-  .sticky {
+  /* .sticky {
     position: fixed;
     top: 0;
     width: 100%;
@@ -677,7 +772,7 @@ hr.solid-line {
   .sticky + .content {
     padding-top: 60px;
     width: 100%;
-  }
+  } */
 /* ------end of nav bar ------- */
 
   p {
@@ -717,11 +812,11 @@ hr.solid-line {
     .logo-txt {
       font-size: 50px;
       line-height: 75px;
-      padding-left: 30px;
+      padding-left: 50px;
       font-family: 'Signika Negative', sans-serif;
       font-weight: bold;
       color: rgb(0, 0, 0);
-      cursor: pointer;
+      /* cursor: pointer; */
     }
   
     nav {
@@ -743,7 +838,7 @@ hr.solid-line {
     }
     .nav-list li a {
       color: rgb(0, 0, 0);
-      font-size: 27.5px;
+      font-size: 18px;
       text-decoration: none;
       font-weight: 400;
     }
@@ -759,6 +854,8 @@ hr.solid-line {
       color: #000000;
       /* text-shadow: 1px 1px #000000; */
     }
+
+    /* --------end of nav bar----------- */
 
     .hs-image {
         padding: 20px;
@@ -776,15 +873,18 @@ hr.solid-line {
 
     /* skills section icons */
     .icons {
-        align-items: center;
-        padding: 0 20px 20px 20px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 0 30px 20px 30px;
     }
 
-    .icons img {
+    /* .icons img {
         padding: 20px 40px;
         margin: 0;
         align-items: center;
-    }
+    } */
   }
 
 @media only screen and (min-width: 1440px) {}
