@@ -262,7 +262,7 @@ hr.solid-line {
 
 /* Footer */
 .footer {
-  width: 100%;
+  width: auto;
   padding: 20px 0px;
   margin-top: 100px;
   border-top: 2px solid #E0E0E0;
@@ -826,7 +826,7 @@ nav {
 }
 } */
 
-/* @media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
 
 header {
     width: 100%;
@@ -874,11 +874,11 @@ header {
   .nav-list li a.active,
   .nav-list li a:hover {
     color: #000000;
-  } */
+  }
 
   /* --------end of nav bar----------- */
 
-  /* .hs-image {
+  .hs-image {
       padding: 20px;
       text-align: center;
   }
@@ -887,10 +887,10 @@ header {
       max-width: 33%;
       height: auto;
       border-radius: 50%;
-  } */
+  }
 
   /* skills section icons */
-  /* .icons {
+  .icons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -898,7 +898,7 @@ header {
     margin: 0px 60px;
     padding: 0 30px 20px 30px;
   }
-} */
+}
 
 
   
