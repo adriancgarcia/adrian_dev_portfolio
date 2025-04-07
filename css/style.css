@@ -283,7 +283,6 @@ hr.solid-line {
 header {
   width: auto;
   margin: 0;
-
 }
 
 /* ----- Burger menu styling ----- */
@@ -385,7 +384,7 @@ nav {
   padding-top: 60px;
   width: 100%;
 }
-
+}
 /* ------end of nav bar ------- */
 
 /* #headshot {
@@ -922,6 +921,3 @@ header {
     padding: 0 30px 20px 30px;
   }
 }
-
-
-  
