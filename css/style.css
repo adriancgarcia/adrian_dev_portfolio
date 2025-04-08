@@ -10,6 +10,26 @@ html, body {
 
 /* ----- Burger menu styling ----- */
 
+.logo-container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  width: 80%;
+  margin: 0;
+  }
+  
+  .logo-txt {
+  font-size: 30px;
+  padding-left: 30px;
+  padding-top: 25px;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  justify-items: left;
+  text-align: left;
+  width: 400px;
+  }
+
 nav {
 height: 75px;
 width: auto;
@@ -35,10 +55,9 @@ opacity: 5;
 .nav-list li {
 opacity: 0;
 line-height: 30px;
-margin: 50px 20;
+margin: 50px 20px;
 transition: all .5s;
 list-style-type: none;
-
 }
 
 .nav-list li a {
@@ -87,26 +106,6 @@ opacity: 1;
 .sticky + .content {
   padding-top: 60px;
   width: 100%;
-}
-
-.logo-container {
-display: flex;
-justify-content: left;
-align-items: left;
-width: 80%;
-margin: 0;
-}
-
-.logo-txt {
-font-size: 30px;
-padding-left: 30px;
-padding-top: 25px;
-font-family: 'Signika Negative', sans-serif;
-font-weight: bold;
-color: rgb(255, 255, 255);
-justify-items: left;
-text-align: left;
-width: 400px;
 }
 
 /* ------end of nav bar ------- */
@@ -278,8 +277,7 @@ hr.solid-line {
 
 
 /* @media only screen and (max-width: 500px) {} */
-
-@media only screen and (min-width: 390px) {
+@media only screen and (min-width: 500px) {
 header {
   width: auto;
   margin: 0;
@@ -385,6 +383,7 @@ nav {
   width: 100%;
 }
 }
+
 /* ------end of nav bar ------- */
 
 /* #headshot {
@@ -433,16 +432,15 @@ nav {
 
 
 /* min-width: 768px */
-
-/* @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
 header {
   width: auto;
   margin: 0;
-} */
+}
 
 /* ----- Burger menu styling ----- */
 
-/* .logo-container {
+.logo-container {
   display: flex;
   justify-content: left;
   align-items: left;
@@ -539,7 +537,8 @@ nav {
 .sticky + .content {
   padding-top: 60px;
   width: 100%;
-} */
+}
+}
 /* ------end of nav bar ------- */
 
 /* .hs-image {
@@ -587,13 +586,13 @@ nav {
 } */
 
 /* @media 992 p */
-/* @media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
 header {
   width: 100%;
-} */
+}
 /* ----- Burger menu styling ----- */
 
-/* nav {
+nav {
   height: 75px;
   width: auto;
   background-color: #171c1f;
@@ -690,7 +689,8 @@ header {
 .sticky + .content {
   padding-top: 60px;
   width: 100%;
-} */
+}
+}
 /* ------end of nav bar ------- */
 
 /* p {
@@ -734,7 +734,7 @@ header {
   align-items: center;
   padding: 0 30px 20px 30px;
 }
-}
+} */
 
 @media only screen and (min-width: 1024px) {
 header {
@@ -799,7 +799,8 @@ nav {
 .nav-list li a.active,
 .nav-list li a:hover {
   color: #000000;
-} */
+}
+}
 
 /* ------end of nav bar ------- */
 
@@ -921,3 +922,6 @@ header {
     padding: 0 30px 20px 30px;
   }
 }
+
+
+  
