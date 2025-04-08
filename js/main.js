@@ -20,12 +20,12 @@ function myFunction () {
 //  }
 // }
 
-// document.querySelectorAll(".nav-list li a").forEach(function(elem) {
-//   elem.addEventListener('click', function(ev) {
-//     document.getElementById("check").checked = false;
-//   });
+document.querySelectorAll(".nav-list li a").forEach(function(elem) {
+  elem.addEventListener('click', function(ev) {
+    document.getElementById("check").checked = false;
+  });
 
-// })
+})
 
 
 // When the user scrolls the page, execute myFunction
