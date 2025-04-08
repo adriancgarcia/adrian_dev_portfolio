@@ -1,11 +1,11 @@
-// function myFunction () {
-//   var x = document.getElementById("section-links");
-//   if (x.style.display === "block") {
-//     x.style.display = "none";
-//   } else {
-//     x.style.display = "block";
-//   }
-// }
+function myFunction () {
+  var x = document.getElementById("section-links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 
 // function myFunction(x) {
 //   x.classList.toggle("change");
@@ -20,12 +20,12 @@
 //  }
 // }
 
-document.querySelectorAll(".nav-list li a").forEach(function(elem) {
-  elem.addEventListener('click', function(ev) {
-    document.getElementById("check").checked = false;
-  });
+// document.querySelectorAll(".nav-list li a").forEach(function(elem) {
+//   elem.addEventListener('click', function(ev) {
+//     document.getElementById("check").checked = false;
+//   });
 
-})
+// })
 
 
 // When the user scrolls the page, execute myFunction
