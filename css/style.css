@@ -10,7 +10,7 @@ html, body {
 
 /* ----- Burger menu styling ----- */
 
-.logo-container {
+/* .logo-container {
   display: flex;
   justify-content: left;
   align-items: left;
@@ -106,7 +106,7 @@ opacity: 1;
 .sticky + .content {
   padding-top: 60px;
   width: 100%;
-}
+} */
 
 /* ------end of nav bar ------- */
 
@@ -296,6 +296,7 @@ header {
 .logo-txt {
   font-size: 30px;
   padding-left: 30px;
+  padding-top: 25px;
   font-family: 'Signika Negative', sans-serif;
   font-weight: bold;
   color: rgb(255, 255, 255);
@@ -390,15 +391,21 @@ nav {
   display: flex;
   align-items: center;
   text-align: center;
-}
-
-.hs-image img {
-    max-width: 150%;
-    height: auto;
-    border-radius: 50%;
 } */
 
+.hs-image img {
+    max-width: 75%;
+    height: auto;
+    border-radius: 50%;
+}
+ 
+.content {
+  margin: 0px 20px 0px
+  20px;
+}
+
 /* skills section icons */
+
 /* .icons {
     align-items: center;
     padding: 0 20px 20px 20px;
@@ -541,16 +548,16 @@ nav {
 }
 /* ------end of nav bar ------- */
 
-/* .hs-image {
+.hs-image {
     padding: 20px;
     text-align: center;
 }
 
 .hs-image img {
-    max-width: 33%;
+    max-width: 50%;
     height: auto;
     border-radius: 50%;
-} */
+}
 
 /* skills section icons */
 /* .icons {
@@ -848,9 +855,11 @@ header {
     height: 100px;
     background-color: transparent;
   }
+
   .hamburger-btn {
     display: none;
   }
+
   .nav-list {
     position: relative;
     height: 100px;
