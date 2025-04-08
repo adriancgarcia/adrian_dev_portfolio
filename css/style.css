@@ -10,7 +10,7 @@ html, body {
 
 /* ----- Burger menu styling ----- */
 
-/* .logo-container {
+.logo-container {
   display: flex;
   justify-content: left;
   align-items: left;
@@ -106,7 +106,7 @@ opacity: 1;
 .sticky + .content {
   padding-top: 60px;
   width: 100%;
-} */
+}
 
 /* ------end of nav bar ------- */
 
@@ -859,7 +859,7 @@ header {
   .hamburger-btn {
     display: none;
   }
-
+  
   .nav-list {
     position: relative;
     height: 100px;
