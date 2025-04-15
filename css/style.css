@@ -1,4 +1,4 @@
-@media only screen and (min-width: 390px) {
+
 html, body {
   font-family: "Ubuntu", sans-serif;
   /* height: 100%; */
@@ -273,20 +273,19 @@ hr.solid-line {
   color: #ffffff;
   text-align: center;
 }
-}
 
 
 
-/* @media only screen and (min-width: 390px) {} */
-/* @media only screen and (max-width: 390px) {
+/* @media only screen and (min-width: 600px) {} */
+@media only screen and (min-width: 600px) {
 header {
   width: auto;
   margin: 0;
-} */
+}
 
 /* ----- Burger menu styling ----- */
 
-/* .logo-container {
+.logo-container {
   display: flex;
   justify-content: left;
   align-items: left;
@@ -384,7 +383,7 @@ nav {
   padding-top: 60px;
   width: 100%;
 }
-} */
+}
 
 /* ------end of nav bar ------- */
 
@@ -394,7 +393,7 @@ nav {
   text-align: center;
 } */
 
-/* .hs-image img {
+.hs-image img {
     max-width: 75%;
     height: auto;
     border-radius: 50%;
@@ -403,7 +402,7 @@ nav {
 .content {
   margin: 0px 20px 0px
   20px;
-} */
+}
 
 /* skills section icons */
 
@@ -437,167 +436,6 @@ nav {
 }  
 
 } */
-
-/* @media only screen and (min-width: 500px) {} */
-@media only screen and (min-width: 500px) {
-  header {
-    width: auto;
-    margin: 0;
-  }
-  
-  /* ----- Burger menu styling ----- */
-  
-  .logo-container {
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    width: 100%;
-    margin: 0;
-  }
-  
-  .logo-txt {
-    font-size: 30px;
-    padding-left: 30px;
-    padding-top: 25px;
-    font-family: 'Signika Negative', sans-serif;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    justify-items: left;
-    text-align: left;
-    width: 400px;
-  }
-  
-  nav {
-    height: 75px;
-    width: auto;
-    background-color: #171c1f;
-    display: flex;
-    justify-content: space-between;
-    z-index: 99;
-  }
-  
-  .nav-list {
-    position: fixed;
-    width: 100%;
-    height: 0vh;
-    top: 75px;
-    background: #444444;
-    opacity: 6;
-    float: right;
-    text-align: center;
-    transition: all .5s;
-    z-index: 2;
-    opacity: 5;
-  }
-  
-  .nav-list li {
-    opacity: 0;
-    line-height: 30px;
-    margin: 50px 0;
-    transition: all .5s;
-    list-style-type: none;
-  }
-  
-  .nav-list li a {
-    color: #bcbcbc;
-    font-size: 27.5px;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 900;
-    transition: .5s;
-  }
-  
-  .nav-list li a.active,
-  .nav-list li a:hover {
-    color: #ffffff;
-    transition: 0.5s;
-  }
-  
-  .hamburger-btn {
-    display: block;
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 75px;
-    margin-right: 40px;
-    cursor: pointer;
-  }
-  
-  #check {
-    display: none;
-  }
-  
-  #check:checked~.nav-list {
-    height: 100vh;
-  }
-  
-  #check:checked~.nav-list li {
-    opacity: 1;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  .sticky + .content {
-    padding-top: 60px;
-    width: 100%;
-  }
-  }
-  
-  /* ------end of nav bar ------- */
-  
-  /* #headshot {
-    display: flex;
-    align-items: center;
-    text-align: center;
-  } */
-  
-  .hs-image img {
-      max-width: 75%;
-      height: auto;
-      border-radius: 50%;
-  }
-   
-  .content {
-    margin: 0px 20px 0px
-    20px;
-  }
-  
-  /* skills section icons */
-  
-  /* .icons {
-      align-items: center;
-      padding: 0 20px 20px 20px;
-  }
-  
-  .icons img {
-      padding: 20px 40px;
-      margin: 0;
-      align-items: center;
-  } */
-  
-  /* Projects section */
-  /* #section4 h2 {
-    text-align: left;
-    padding: 10px 0 10px 0px;
-  } */
-  
-  /* #section4 h1, p {
-    text-align: left;
-    margin-left:0;
-  }
-  .projects-list img {
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    display: flex;
-    align-items: center;
-  }  
-  
-  } */
 
 
 /* min-width: 768px */
@@ -1017,11 +855,10 @@ header {
     height: 100px;
     background-color: transparent;
   }
-
+  
   .hamburger-btn {
     display: none;
   }
-  
   .nav-list {
     position: relative;
     height: 100px;
