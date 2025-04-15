@@ -1,8 +1,8 @@
 html, body {
   font-family: "Ubuntu", sans-serif;
   height: 100%;
-  /* max-width: 100%;
-  overflow-x: hidden; */
+  max-width: 100%;
+  overflow-x: hidden;
   margin: 0 auto;
 
 }
