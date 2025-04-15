@@ -1,4 +1,4 @@
-
+@media only screen and (min-width: 390px) {
 html, body {
   font-family: "Ubuntu", sans-serif;
   /* height: 100%; */
@@ -273,19 +273,20 @@ hr.solid-line {
   color: #ffffff;
   text-align: center;
 }
+}
 
 
 
 /* @media only screen and (min-width: 390px) {} */
-@media only screen and (min-width: 390px) {
+/* @media only screen and (max-width: 390px) {
 header {
   width: auto;
   margin: 0;
-}
+} */
 
 /* ----- Burger menu styling ----- */
 
-.logo-container {
+/* .logo-container {
   display: flex;
   justify-content: left;
   align-items: left;
@@ -383,7 +384,7 @@ nav {
   padding-top: 60px;
   width: 100%;
 }
-}
+} */
 
 /* ------end of nav bar ------- */
 
@@ -393,7 +394,7 @@ nav {
   text-align: center;
 } */
 
-.hs-image img {
+/* .hs-image img {
     max-width: 75%;
     height: auto;
     border-radius: 50%;
@@ -402,7 +403,7 @@ nav {
 .content {
   margin: 0px 20px 0px
   20px;
-}
+} */
 
 /* skills section icons */
 
